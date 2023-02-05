@@ -1,0 +1,151 @@
+
+//*Header*//
+
+.header {
+	
+height: 10%;
+width: 100%;
+background-color: black;
+border-style: Solid;
+border-color: whitesmoke;	
+ max-width: 1280px
+
+}
+
+//* Start of Nav *//
+
+.navigation {
+
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+    align-items: center;
+
+
+
+  }
+
+.navigation li {
+
+	height: 5%;
+	text-decoration: none;
+	font-size: 30px;
+	display: inline-block;
+	padding: 10px 10px 10px 20px;
+	letter-spacing: 1px;
+	font-family: OCR A Std, monospace;
+	font-style: bold;
+	background-color: black;
+	color: whitesmoke;
+
+
+}
+
+.navigation ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+
+}
+
+
+.navigation ul li a:link{
+text-decoration: none;
+
+}
+
+.navigation ul li a:visited{
+  color: whitesmoke;
+  text-decoration: none;
+  }
+
+.navigation ul li a:hover{
+color: orangered;
+transition: 0.4s ease-in-out;
+text-decoration: none;
+}
+
+//* End of Nav *//
+
+
+.body { 
+	height: 100%;
+	width: 100%;
+  margin: auto;
+}
+
+//* Start of left content box *// 
+
+.content{ 
+
+height: 88%;
+width: 50%;
+text-align: center;
+margin: auto;
+float:  left;
+}
+
+
+
+.content p {
+
+color: black;
+padding: 1% 10% 2%;
+font-family: sans-serif;
+font-size: 20px;
+letter-spacing: 1.5px;
+text-align: center;
+
+}
+
+.content h1 {
+padding-top: 20%;
+font-size: 50px;
+font-family: sans-serif;
+color: royalblue;
+
+}
+.content h2 {
+
+font-size: 50px;
+font-family: sans-serif;
+color: black;
+
+}
+
+.content h3 {
+	font-size: 20px;
+	font-family: sans-serif;
+	color: orangered;
+}
+
+//* End of content box one *// 
+
+//* Start of second box of content *//
+
+.content2 { 
+
+height: 88%;
+width: 50%;
+text-align: center;
+margin: auto;
+float: right;
+}
+
+.content2 img{
+
+height: 250px;
+width:  250px;
+border-radius: 34.9%;
+position: absolute;
+right: 550px;
+bottom: 450px;
+
+
+}
+
+
+//* End of Content 2 *//
